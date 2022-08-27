@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold.woff2') format('woff2'),
+        url('../fonts/nexa_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../fonts/nexa_light.woff2') format('woff2'),
+        url('../fonts/nexa_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #d7d7d7;
+}
+
+.logo img {
+    margin-left: 45px;
+    margin-bottom: -10px;
+
+}
+
+.logo-heading {
+    text-align: center;
+}
+
+.sidebar {
+    float: left;
+    background-color: #ededed;
+    padding: 30px;
+    width: 259px;
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+.sidebar h4 {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.sidebar p {
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -18px;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar hr {
+    border: .5px solid #425766;
+    width: 170px;
+    margin: 10px 0px 5px -15px;
+    background-color: #425766;
+}
+
+.sidebar li img {
+    height: 42px;
+    width: 42px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #d7d7d7;
+}
+
+.search-quote .filter input {
+    width: 100%;
+    border-radius: 2px;
+    border: 0;
+    height: 35px;
+    padding: 11px 15px 10px 15px;
+    outline: none;
+    background: #ededed;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    padding-right: 450px;
+}
+
+.submit input {
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 5px 15px;
+    font-style: italic;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+}
+
+.bar {
+    padding-right: 100px;
+}
+
+.search-quote {
+    display: flex;
+}
+
+.user-details-img {
+    margin-left: 950px;
+    margin-top: -90px;
+    margin-bottom: 60px;
+
+}
+
+.alert-bell {
+    height: 40px;
+    width: 40px;
+}
+
+.user-image {
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    margin-left: 1090px;
+    margin-top: -130px;
+    padding-bottom: 20px;
+}
+
+.user-details h6 {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.name {
+    margin-left: 77px;
+    font-family: arial !important;
+}
+
+.dealer {
+    margin-left: -10px;
+    font-family: arial !important;
+    color: #b1b1bf;
+}
+
+.bar {
+    background-color: #f3f3f3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bar a {
+    color: #b1b1bf;
+}
+
+.main-menu li {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b1b1bf;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.active {
+    margin-left: 270px;
+    padding: 5px 30px 5px 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.bar ul li a:nth-child(2) {
+    color: #449ab4 !important;
+}
+
+.main {
+    margin: 1rem;
+    width: 79vw;
+    float: left;
+    margin-left: 18rem;
+    background-color: #ffffff;
+}
+
+.dealership {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #449ab4;
+
+}
+
+.dealership hr {
+    margin: 10px 0px 0px 495px;
+    width: 200px;
+    border: 1px solid #449ab4;
+}
+
+form h5 {
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 870px;
+    margin: auto;
+}
+
+.main-menu input {
+    margin: 20px 12px 5px 0px;
+    border: 2px solid #ddd;
+}
+
+#state {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+}
+
+.form-group {
+    text-align: center;
+
+}
+
+.form-control {
+    color: #888891;
+    padding: 11px;
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: #449ab4;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 15px;
+    font-size: 19.85px;
+    font-weight: 600;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    min-width: 262px;
+
+}
+
+input::placeholder {
+    color: #b1b1bf;
+}
+
+.disclaimer {
+    max-width: 870px;
+    margin: auto;
+    padding: 30px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b1b1bf;
+}
+
+.disclaimer p {
+
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+}
